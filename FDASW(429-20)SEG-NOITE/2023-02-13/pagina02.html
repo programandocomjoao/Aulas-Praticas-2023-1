@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<script src="angular.min.js"></script>
+		<title>Página 02</title>
+	</head>
+	
+	<body>
+		<h1>Segundo Exemplo de AngularJS</h1>
+
+		<div ng-app="">
+			<p><label for="nome">Nome:</label>
+			<input type="text" id="nome" ng-model="nome">
+			</p>
+
+			<p><label for="data">Data de Nascimento:</label>
+			<input type="text" id="data" ng-model="data">
+			</p>
+
+			<p>O nome é <span ng-bind="nome" style="color: red;"></span> e a data de nascimento é <span ng-bind="data" style="color: red;"></span>.</p>
+		</div>
+	</body>
+</html>
